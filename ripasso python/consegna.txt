@@ -1,0 +1,5 @@
+scrivere funzione conta_dispari che accetta come input una lista di interi e restituisca la conta dei numeri dispari contenuti in essa
+
+scrivere funzione conta_dispari che accetta come input una lista di interi e restituisca la LISTA dei numeri dispari contenuti in essa
+
+scrivere una funziona elimina_vuote che accetta come input una lista di stringhe e restituisca una nuova lista in cui siano state eliminate le stringhe vuote e stampi la differenza tra le lunghezze delle due liste
