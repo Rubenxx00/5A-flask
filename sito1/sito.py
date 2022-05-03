@@ -52,6 +52,15 @@ def pagina4():
     contenuto += "</table>" # chiude tabella
     return contenuto
 
+@app.route("/pagina5")
+def pagina5():
+    immagini = ['avocado.webp', 'burrito.jpg', 'french-toast.jpg']
+    nomi = ['Avocado Toast', 'Burito', 'French toast']
+    descrizioni = ['Toast fatto con ...', '...', '...']
+    # generare il menu utilizzando una tabella
+    return contenuto
+
+
 # serve a eseguire direttamente il file corrente, lancia la webapp creata e definita prima
 if __name__ == "__main__":
     app.run(debug=True)
