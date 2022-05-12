@@ -9,11 +9,13 @@ def login():
     return render_template('login.html', data=data_corrente)
 
 
-@app.route("/valuta_login")
+@app.route("/valuta_login", methods=['GET', 'POST'])
 def valuta_login():
-    # qualcosa...
-    
-    return "Pagina che validerà le credenziali"
+    dati = request.values # dati del form
+    if dati["username"] == "admin" and dati["password"] == "ciao":
+        return "Accesso eseguito"
+    else:
+        return "Utente non riconosciuto"
 
 
 if __name__ == "__main__":
