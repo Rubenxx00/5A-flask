@@ -1,0 +1,10 @@
+form di registrazione a una palestra
+
+dati da chiedere
+
+nome cognome
+data nascita
+m/f
+checkbox corsi di interesse (zumba, pilates...) [utente può scegliere 0 o più corsi]
+
+se l'utente ha meno di 16 anni, negare l'iscrizione dando messaggio di errore

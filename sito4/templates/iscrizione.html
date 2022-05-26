@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p style="color: blue;">Oggi {{ data }}</p>
+    <h1>Iscrizione</h1>
+    <form action="/inserimento" method="post">
+        nome: <input name="nome" type="text"> <br>
+        cognome: <input name="cognome" type="text"> <br>
+
+        data nascita: <input type="date" name="nascita"> <br>
+
+        sesso:
+        <input name="sesso" type="radio" value="m"> M 
+        <input name="sesso" type="radio" value="f"> F <br>
+
+        corsi: <br>
+        
+        <input type="checkbox" name="corso1" value="zumba"> Zumba <br>
+        <input type="checkbox" name="corso2" value="pilates"> Pilates <br>
+        <input type="checkbox" name="corso3" value="gag"> Gag <br>
+
+        <input type="submit"> <br>
+    </form>
+</body>
+</html>
